@@ -3,7 +3,7 @@ export default function CampaignSection() {
     <section className="py-16 px-6 md:px-12 bg-white">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#397d0c]">
-          Liam & Christina's Story
+          Liam & Christina&apos;s Story
         </h2>
         <p className="text-lg md:text-xl mb-4 text-gray-700">
           Liam is a bright and loving 11-year-old boy living with cerebral

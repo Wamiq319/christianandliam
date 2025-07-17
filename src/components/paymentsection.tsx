@@ -1,4 +1,5 @@
 import { FaQrcode, FaUniversity, FaDollarSign, FaVenus } from "react-icons/fa";
+import Image from "next/image";
 
 export default function PaymentSection() {
   return (
@@ -16,9 +17,11 @@ export default function PaymentSection() {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           <div className="flex flex-col items-center gap-2 bg-white rounded-xl shadow-lg p-4 border-2 border-[#6cb50a]">
-            <img
+            <Image
               src="/QrCodes/1000006532.jpg"
               alt="QR Code 1"
+              width={192}
+              height={192}
               className="w-48 h-48 rounded-lg"
             />
             <span className="flex items-center gap-2 text-[#397d0c] font-semibold">
@@ -29,9 +32,11 @@ export default function PaymentSection() {
             </span>
           </div>
           <div className="flex flex-col items-center gap-2 bg-white rounded-xl shadow-lg p-4 border-2 border-[#6cb50a]">
-            <img
+            <Image
               src="/QrCodes/1000006533.jpg"
               alt="QR Code 2"
+              width={192}
+              height={192}
               className="w-48 h-48 rounded-lg"
             />
             <span className="flex items-center gap-2 text-[#397d0c] font-semibold">
@@ -42,9 +47,11 @@ export default function PaymentSection() {
             </span>
           </div>
           <div className="flex flex-col items-center gap-2 bg-white rounded-xl shadow-lg p-4 border-2 border-[#6cb50a]">
-            <img
+            <Image
               src="/QrCodes/1000006534.jpg"
               alt="QR Code 3"
+              width={192}
+              height={192}
               className="w-48 h-48 rounded-lg"
             />
             <span className="flex items-center gap-2 text-[#397d0c] font-semibold">

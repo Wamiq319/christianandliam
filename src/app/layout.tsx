@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Liam & Christina Fund",
   description:
-    "Support Liam and Christina's journey to a new accessible vehicle.",
+    "Support Liam and Christina&apos;s journey to a new accessible vehicle.",
 };
 
 export default function RootLayout({
