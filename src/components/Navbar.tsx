@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
-import { FaHeart, FaHandHoldingUsd, FaQrcode } from "react-icons/fa";
+
+import { FaHandHoldingUsd, FaQrcode, FaDonate } from "react-icons/fa";
 import Button from "./Button";
 
 const GOFUNDME_URL =
@@ -13,12 +13,9 @@ export default function Navbar() {
     <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-[90%] md:w-[80%] px-6 py-4 flex items-center justify-between rounded-full shadow-xl border border-[#b6e388] bg-white/30 backdrop-blur-md backdrop-saturate-150 transition-all duration-300">
       {/* Left: Icon and Main Name */}
       <div className="flex items-center gap-2">
-        <FaHeart
-          className="text-[#397d0c] text-xl hover:text-pink-400 transition animate-pulse"
-          title="Love"
-        />
-        <span className="text-2xl font-bold tracking-tight text-[#397d0c]">
-          Christina & Liam
+        <span className="text-2xl font-bold tracking-tight text-[#397d0c] flex items-center gap-2">
+          <FaDonate className="text-[#397d0c] text-2xl" title="Donate" />
+          Liam & Christina Fund
         </span>
       </div>
 
